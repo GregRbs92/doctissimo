@@ -4,8 +4,12 @@ Doctissimo
 ### Installation
 
 This project is dockerized and the different containers are managed thanks to Docker Compose.
-Therefore, after cloning this project, you only have to run the following command:
+Therefore, after cloning this project, you only have to run the following commands:
 ```
+# Install the dependencies
+composer install
+
+# Launch the containers
 sudo docker-compose up
 ```
 
