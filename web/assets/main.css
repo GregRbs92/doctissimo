@@ -1,0 +1,41 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+#article, #articles {
+    padding: 40px 15px 20px;
+}
+
+#article > hr, #articles > hr {
+    margin: 2rem 0;
+}
+
+#articles ol {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+#article > p {
+    letter-spacing: 1px;
+}
+
+#article > a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #aaa;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+
+#img-container {
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1553251395-1593e2f1799c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80") center center;
+    background-size: cover;
+}

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="main" class="container-fluid">
+        <div class="row">
+            <div id="articles" class="col-md-6">
+                <h1>Articles</h1>
+                <hr />
+                <ol>
+                    {% for article in articles %}
+                        <li>
+                            <a href="/blog/articles/{{ article.id }}">{{ article.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </div>
+            <div id="img-container" class="col-md-6"></div>
+        </div>
+    </div>
+{% endblock %}
